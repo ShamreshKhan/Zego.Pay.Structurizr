@@ -4,6 +4,7 @@ using Structurizr.Api;
 using structurizr.Views.Containers;
 using structurizr.Views.Dynamic;
 using structurizr.Views.Systems;
+using Zego.Pay.Structurizr.Actors;
 using Zego.Pay.Structurizr.Systems;
 
 namespace Zego.Pay.Structurizr
@@ -27,7 +28,7 @@ namespace Zego.Pay.Structurizr
         {
             #region Set up Structurizr
             // a Structurizr workspace is the wrapper for a software architecture model, views and documentation
-            Workspace workspace = new Workspace("Zego", "Systems/Services/External integrations used in Zego");
+            Workspace workspace = new Workspace("Zego Pay", "Systems/Services/External integrations used in Zego Pay");
             Model model = workspace.Model;
             model.Enterprise = new Enterprise("Zego");
             ViewSet views = workspace.Views;
@@ -37,7 +38,7 @@ namespace Zego.Pay.Structurizr
             ZegoStyles.ConfigureStyles(styles);
             
             #region Actors/Persons
-            Actors.Actors.Initialize(model);
+            ZegoActors.Initialize(model);
             #endregion
 
             #region Zego Systems

@@ -2,7 +2,7 @@
 
 namespace Zego.Pay.Structurizr.Actors
 {
-    public static class Actors
+    public static class ZegoActors
     {
         public static Person Resident;
         public static Person PropertyManager;

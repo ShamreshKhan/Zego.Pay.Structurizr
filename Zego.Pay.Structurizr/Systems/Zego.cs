@@ -21,12 +21,16 @@ namespace Zego.Pay.Structurizr.Systems
             Pay = model.AddSoftwareSystem("Pay",
                 "Zego™ Pay minimizes the volume of paper payments that come through your door by offering residents convenient and flexible alternatives. Residents can pay rent online, with a sleek rent payment mobile app, or in-person at a participating retail location.");
             Pay.AddTags(ZegoStyles.IntroBox);
+           
             ResX = model.AddSoftwareSystem("Resx",
                 "Equip your communities with a modern edge over the competition. Zego Smart™ connects residents with their home and empowers community managers with a unified resident experience management platform that gives them better control over property operations.");
             ResX.AddTags(ZegoStyles.IntroBox);
+            
             UemAndBilling = model.AddSoftwareSystem("UEM and Billing",
                 "Maximize expense recovery and give your associates the freedom to do more with their day. From invoice auditing, to accounts payable, and expense recovery, our end-to-end utility management software gives you better control over expenses and boosts operational productivity.");
             UemAndBilling.AddTags(ZegoStyles.IntroBox);
+            UemAndBilling.Url = "https://structurizr.com/share/68262/202f78b3-3a8f-4fe4-8a4a-5c76e2a524e7/diagrams#Utility%20Pay";
+            
             MobileDoorman = model.AddSoftwareSystem("Mobile Doorman",
                 "Zego™ Mobile Doorman helps multifamily communities create branded mobile apps for residents. Our fully customizable, user-friendly tool elevates the resident experience by empowering residents to manage all their apartment needs right from their mobile phones.");
             MobileDoorman.AddTags(ZegoStyles.IntroBox);

@@ -10,9 +10,9 @@ namespace structurizr.Views.Containers
         public static void Initialize(ViewSet views)
         {
             var payContainerView = views.CreateContainerView(ZegoSystems.PayleaseSystem, "Zego pay", ">>>");
-            payContainerView.Add(Actors.PropertyManager);
-            payContainerView.Add(Actors.Resident);
-            payContainerView.Add(Actors.ZegoAdmin);
+            payContainerView.Add(ZegoActors.PropertyManager);
+            payContainerView.Add(ZegoActors.Resident);
+            payContainerView.Add(ZegoActors.ZegoAdmin);
             payContainerView.Add(NonZegoSystems.PmIntegrationSoftwareSystem);
             payContainerView.Add(PayContainers.ResidentUiWeb1PayLease);
             payContainerView.Add(PayContainers.PayleaseDatabase);
