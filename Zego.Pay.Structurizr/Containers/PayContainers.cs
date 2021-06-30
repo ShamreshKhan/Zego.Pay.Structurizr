@@ -1,7 +1,8 @@
-﻿using Structurizr;
-using structurizr.Systems;
+﻿using structurizr;
+using Structurizr;
+using Zego.Pay.Structurizr.Systems;
 
-namespace structurizr
+namespace Zego.Pay.Structurizr
 {
     public static class PayContainers
     {

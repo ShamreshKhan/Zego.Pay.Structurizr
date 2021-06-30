@@ -1,6 +1,7 @@
-﻿using Structurizr;
+﻿using structurizr;
+using Structurizr;
 
-namespace structurizr.Systems
+namespace Zego.Pay.Structurizr.Systems
 {
     public static class NonZegoSystems
     {

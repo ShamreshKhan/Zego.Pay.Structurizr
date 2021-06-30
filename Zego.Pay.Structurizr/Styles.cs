@@ -1,7 +1,6 @@
-﻿using System.ComponentModel;
-using Structurizr;
+﻿using Structurizr;
 
-namespace structurizr
+namespace Zego.Pay.Structurizr
 {
     public static class ZegoStyles
     {

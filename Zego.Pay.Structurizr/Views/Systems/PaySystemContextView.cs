@@ -1,5 +1,6 @@
 ﻿using Structurizr;
-using structurizr.Systems;
+using Zego.Pay.Structurizr.Actors;
+using Zego.Pay.Structurizr.Systems;
 
 namespace structurizr.Views.Systems
 {

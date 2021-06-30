@@ -1,12 +1,12 @@
-﻿using structurizr.Systems;
+﻿using Zego.Pay.Structurizr.Systems;
 
-namespace structurizr
+namespace Zego.Pay.Structurizr
 {
     public static class PayContainersRelationships
     {
         public static void Initialize()
         {
-            Actors.Resident.Uses(PayContainers.ResidentUiWeb1PayLease, "uses");
+            Actors.Actors.Resident.Uses(PayContainers.ResidentUiWeb1PayLease, "uses");
             PayContainers.ResidentUiWeb1PayLease.Uses(PayContainers.PayleaseWeb, "uses");
             PayContainers.PayleaseWeb.Uses(PayContainers.PayleaseDatabase, "uses");
             NonZegoSystems.PmWebPortal.Uses(PayContainers.ResidentUiWeb1PayLease, "uses");
@@ -17,7 +17,7 @@ namespace structurizr
             PayContainers.DeltaEngine.Uses(NonZegoSystems.KafkaSassSolution, "uses");
             NonZegoSystems.KafkaSassSolution.Uses(ZegoSystems.ZegoCore, "uses");
             ZegoSystems.ZegoCore.Uses(NonZegoSystems.CleverTapSystem, "uses");
-            NonZegoSystems.CleverTapSystem.Delivers(Actors.Resident, "Sends");
+            NonZegoSystems.CleverTapSystem.Delivers(Actors.Actors.Resident, "Sends");
         }
     }
 }

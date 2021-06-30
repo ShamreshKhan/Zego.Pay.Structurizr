@@ -1,6 +1,6 @@
 ﻿using Structurizr;
 
-namespace structurizr
+namespace Zego.Pay.Structurizr.Actors
 {
     public static class Actors
     {
@@ -14,9 +14,7 @@ namespace structurizr
         public static void Initialize(Model model)
         {
             Resident = model.AddPerson("Resident", "....");
-            // Common
             PropertyManager = model.AddPerson("Property Manager", "....");
-            //  Person resident = model.AddPerson("Resident", "....");
             ZegoAdmin = model.AddPerson("Zego admin", "....");
             
             // Pay
