@@ -5,7 +5,7 @@ This is a simple starting point for using [Structurizr for .NET](https://github.
 ## 1. Clone the repo
 
 ```
-git clone https://github.com/structurizr/dotnet-core-quickstart.git
+git clone git@github.com:ShamreshKhan/Zego.Pay.Structurizr.git
 ```
 
 ## 2. Set your workspace ID, API key and secret
