@@ -1,4 +1,4 @@
-# Structurizr for .NET quickstart (.NET Core version)
+# Zego Pay Structurizr project (.NET Core version)
 
 This is a simple starting point for using [Structurizr for .NET](https://github.com/structurizr/dotnet). To use it:
 
