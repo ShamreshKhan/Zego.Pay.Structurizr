@@ -11,11 +11,10 @@ namespace Zego.Pay.Structurizr
 {
     class Program
     {
-        #region Private variables
-        private const long WorkspaceId = 68009;
-        private const string ApiKey = "cada854f-6143-47ee-b7a5-9020213be652";
-        private const string ApiSecret = "fa59853c-36ca-432c-bb8d-85498a088d8d";
- 
+        #region Workspace keys
+        private const long WorkspaceId = 000000;
+        private const string ApiKey = "[API Key]";
+        private const string ApiSecret = "[API Secret]";
         #endregion
 
         static void Main(string[] args)
@@ -31,6 +30,7 @@ namespace Zego.Pay.Structurizr
             
             PayContainers.Initialize();
             PayContainersRelationships.Initialize();
+            
             PaySystemContextView.Initialize(ZegoSetup.Views);
             PayContainersView.Initialize(ZegoSetup.Views);
 

@@ -6,6 +6,7 @@ namespace Zego.Pay.Structurizr
     {
         public static void Initialize()
         {
+     
             Actors.ZegoActors.Resident.Uses(PayContainers.ResidentUiWeb1PayLease, "uses");
             PayContainers.ResidentUiWeb1PayLease.Uses(PayContainers.PayleaseWeb, "uses");
             PayContainers.PayleaseWeb.Uses(PayContainers.PayleaseDatabase, "uses");

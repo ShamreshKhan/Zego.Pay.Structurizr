@@ -1,7 +1,7 @@
 ﻿using Structurizr;
 
 namespace Zego.Pay.Structurizr
-{
+{ 
     public static class ZegoSetup
     {
         public static Workspace Workspace;

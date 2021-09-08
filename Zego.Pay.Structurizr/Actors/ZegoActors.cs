@@ -13,7 +13,7 @@ namespace Zego.Pay.Structurizr.Actors
 
         public static void Initialize(Model model)
         {
-            Resident = model.AddPerson("Resident", "....");
+            Resident = model.AddPerson("Resident", "Makes payments");
             PropertyManager = model.AddPerson("Property Manager", "....");
             ZegoAdmin = model.AddPerson("Zego admin", "....");
             
