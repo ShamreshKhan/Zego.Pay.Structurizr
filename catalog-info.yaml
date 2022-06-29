@@ -6,9 +6,9 @@ metadata:
   labels:
     system: web-apps
   tags:
-    - C# .net
-    - Third party Sass (https://structurizr.com)
-    - some other tag
+    - dotnet
+    - Sass 
+    - architecture
   annotations:
     github.com/project-slug: ShamreshKhan/Zego.Pay.Structurizr
 spec:
