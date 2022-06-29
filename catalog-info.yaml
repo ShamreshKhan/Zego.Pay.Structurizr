@@ -7,7 +7,7 @@ metadata:
     system: web-apps
   tags:
     - dotnet
-    - Sass 
+    - sass 
     - architecture
   annotations:
     github.com/project-slug: ShamreshKhan/Zego.Pay.Structurizr
