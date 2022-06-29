@@ -1,4 +1,4 @@
-![Structurizr](docs/images/structurizr-banner.png)
+![Structurizr](https://github.com/structurizr/dotnet/blob/master/docs/images/structurizr-banner.png)
 
 # Structurizr for .NET
 
@@ -28,7 +28,7 @@ styles.Add(new ElementStyle(Tags.Person) { Background = "#08427b", Color = "#fff
 
 The view can then be exported to be visualised using the [Structurizr service](https://structurizr.com), or other formats including PlantUML, WebSequenceDiagrams and Graphviz via the [Structurizr for .NET extensions](https://github.com/structurizr/dotnet-extensions).
 
-![Views can be exported and visualised in many ways; e.g. PlantUML, Structurizr and Graphviz](docs/images/readme-1.png)
+![Views can be exported and visualised in many ways; e.g. PlantUML, Structurizr and Graphviz](https://github.com/structurizr/dotnet/blob/master/docs/images/readme-1.png)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/t7oph9oynedawkm0?svg=true)](https://ci.appveyor.com/project/structurizr/dotnet)
 
