@@ -13,5 +13,5 @@ metadata:
     github.com/project-slug: ShamreshKhan/Zego.Pay.Structurizr
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: experimental
   owner: ShamreshKhan
