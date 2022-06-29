@@ -2,9 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Zego.Pay.Structurizr
+  description: Skeleton structurizr project based off C4 diagrams for the pay domain
+  labels:
+    system: web-apps
+  tags:
+    - C# .net
+    - Third party Sass (https://structurizr.com)
   annotations:
     github.com/project-slug: ShamreshKhan/Zego.Pay.Structurizr
 spec:
   type: service
   lifecycle: unknown
-  owner: guests
+  owner: ShamreshKhan
