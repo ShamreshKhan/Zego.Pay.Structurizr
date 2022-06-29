@@ -1,5 +1,6 @@
 site_name: 'backstage-sample-service-docs'
 nav:
   - Home: index.md
+  - Structurizr: structurizr.md
 plugins:
   - techdocs-core
