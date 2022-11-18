@@ -1,7 +1,7 @@
 name-template: 'v$NEXT_PATCH_VERSION'
 tag-template: 'v$NEXT_PATCH_VERSION'
 replacers:
- - search: '/([A-Z0-9a-z]{1,10})-(\d+)/g'
+  - search: '/([A-Z0-9a-z]{1,10})-(\d+)/g'
     replace: 'https://origamirisk.atlassian.net/browse/$1-$2'
 categories:
   - title: '🚀 Features'
